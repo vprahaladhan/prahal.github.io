@@ -31,7 +31,7 @@
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro" style="padding: 93px 0px;">
             <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/avatars/my-photo.jpg&quot;);margin: 0px auto;width: 200px;height: 200px;"></div>
+                <div data-tilt data-tilt-scale='1.1' data-tilt-glare data-tilt-max-glare="0.8" class="avatar" style="background-image: url(&quot;assets/img/avatars/my-photo.jpg&quot;);margin: 0px auto;width: 200px;height: 200px;"></div>
                 <div class="about-me">
                     <p>Hello! I am <strong>Prahaladhan Venkatesan</strong>.</p>
                     <p>I&nbsp;am a<br><strong id="typed"></strong></p><a class="btn btn-outline-primary" role="button" href="contact-me.html">Contact me</a>
@@ -106,17 +106,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/theme.js"></script>
-    <script src="assets/js/typed.js"></script>
     <script src="assets/js/vanilla-tilt.js"></script>
-    <script>
-      VanillaTilt.init(document.querySelector(".avatar"), {
-        max: 25,
-        speed: 400
-      });
-      
-      //It also supports NodeList
-      VanillaTilt.init(document.querySelectorAll(".avatar"));
-    </script>  
 </body>
 
 </html>
