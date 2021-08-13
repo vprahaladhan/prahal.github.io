@@ -506,5 +506,3 @@ if (typeof document !== "undefined") {
 return VanillaTilt;
 
 }());
-
-console.log('VanillaTilt in vanilla-tilt.js >> ');
